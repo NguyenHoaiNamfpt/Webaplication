@@ -1,0 +1,179 @@
+
+#content #slide #main-slide .clear{
+	width:100%;
+	height:1px;
+	float:none;
+	clear:both;
+}
+
+#content #slide #main-slide {
+    /* margin: 100px auto auto;*/
+     width: 960px;
+}
+
+#content #slide #main-slide form #slide .input {
+     display: none;
+}
+
+#content #slide #main-slide form {
+     position: relative;
+     background-color:#d5d6d8;
+}
+
+/*---tạo bóng---*/
+#content #slide #main-slide form:before,form:after {   
+     bottom: 5px;
+     box-shadow: 0pt 6px 12px rgba(0, 0, 0, 1);
+     content: "";
+     height: 10px;    
+     position: absolute;
+     width:49%;
+     z-index: -1;
+     display:none;
+}
+
+#content #slide #main-slide form:before{
+	left: 6px;
+	-moz-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	-webkit-transform: rotate(-1deg);
+	-ms-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+}
+
+#content #slide #main-slide form:after{
+	right: 6px;
+	-moz-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	-webkit-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	transform: rotate(1deg);
+}
+
+#content #slide #main-slide form #slide {
+     height: 400px;
+     overflow: hidden;
+     position: relative;
+     width: 960px;
+}
+
+#slide_wrap {
+     height:400px;
+     left: 0pt;
+     position: absolute;
+     top: 0pt;
+     width: 3840px;
+	 -moz-transition:left 0.6s ease-in-out;
+	 transition:left 0.6s ease-in-out;
+	 -webkit-transition:left 0.6s ease-in-out;
+	 -o-transition:left 0.6s ease-in-out;
+}
+
+#slide_wrap img {
+     float: left;
+}
+
+.label {
+     background-color: white;
+     border-radius: 20px 20px 20px 20px;
+     bottom: 10px;
+     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+     cursor: pointer;
+     display: block;
+     height: 12px;
+     position: absolute;
+     width: 12px;
+     z-index:2;
+    -moz-transition:width 0.4s,height 0.4s ease;
+	-webkit-transition:width 0.4s,height 0.4s ease;
+	-o-transition:width 0.4s,height 0.4s ease;
+	transition:width 0.4s,height 0.4s ease;
+}
+
+h1{
+	width:960px;
+    z-index:1;
+    height:50px;
+	position:absolute;
+	bottom:0;
+    left:-960px;
+	background-color:rgba(0,0,0,0.8);
+    font-family:calibri;
+	text-transform:uppercase;
+    font-weight:600;
+    color:white;
+	letter-spacing:1px;
+    font-size:18px;
+    text-shadow:0 1px 0 rgba(0,0,0,0.5);
+    line-height:50px;
+    text-indent:15px;
+	opacity:0;
+	-moz-transition:opacity 1s,left 1s ease;
+    -webkit-transition:opacity 1s,left 1s  ease;
+    -o-transition:opacity 1s,left 1s  ease;
+    transition:opacity 1s,left 1s  ease;
+    
+}
+
+/* vị trí của các nút */
+#button4 {
+     right: 15px;
+}
+
+#button3 {
+     right: 35px;
+}
+
+#button2 {
+     right: 55px;
+}
+
+#button1 {
+     right: 75px;
+}
+
+/* nút khi input được check */
+#image1:checked ~ #button1,
+#image2:checked ~ #button2,
+#image3:checked ~ #button3,
+#image4:checked ~ #button4{
+    width:7px;
+    height:7px;
+    margin-bottom:1px;
+    margin-right:2px;
+}
+
+/* di chuyển slide khi input được check */
+#image1:checked ~ #slide_wrap {
+     left: 0pt;
+}
+
+#image2:checked ~ #slide_wrap {
+     left: -960px;
+}
+
+#image3:checked ~ #slide_wrap {
+     left: -1880px;
+}
+
+#image4:checked ~ #slide_wrap {
+     left: -2820px;
+}
+
+/* hiệu ứng fade */
+#image1:checked ~ #slide_wrap img:nth-child(1),
+#image2:checked ~ #slide_wrap img:nth-child(2),
+#image3:checked ~ #slide_wrap img:nth-child(3),
+#image4:checked ~ #slide_wrap img:nth-child(4){
+     opacity:1;
+}
+
+/* text khi input được check*/
+#image1:checked ~ #text1,
+#image2:checked ~ #text2,
+#image3:checked ~ #text3,
+#image4:checked ~ #text4{
+    opacity:1;
+    left:0;
+}
+

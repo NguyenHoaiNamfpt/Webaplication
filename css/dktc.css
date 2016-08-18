@@ -1,0 +1,56 @@
+.wraper #content .full{
+    display: block;
+    width: 100%;  
+}
+.wraper #content .full .loginFormclearfix{
+border: 1px solid #e6eae6;
+    display: block;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.wraper #content .full .loginFormclearfix h3{
+    color: #1f261f;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;    
+    }
+    .wraper #content .full .loginFormclearfix .messages{
+        display: none;
+    margin: 10px 0;
+    }
+    .wraper #content .full .loginFormclearfix .messages .content{
+        border: 1px solid #222;
+    color: #222;
+    padding: 10px;
+    }
+    .wraper #content .full .loginFormclearfix #groupRegister{
+        background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    float: left;
+    padding: 21px 21px 41px;
+    text-align: center;
+    width: 96%;
+    }
+    .wraper #content .full .loginFormclearfix #groupRegister h4{
+        color: #545d54;
+    line-height: 64px;
+    margin: 0;
+    text-transform: uppercase;
+    }
+    .wraper #content .full .loginFormclearfix #groupRegister p.register_btn{
+        background-color: #00CC33;
+        border-radius: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    }
+    .wraper #content .full .loginFormclearfix #groupRegister p.register_btn a{
+        color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    }

@@ -1,0 +1,232 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: block;
+}
+body {
+    background: #fff none repeat scroll 0 0;
+    font-family: tahoma,arial,sans-serif;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+.clear {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+#header form {
+    float: left;
+}
+#header .phone {
+    color: #aa1515;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 37px;
+    margin-left: 67px;
+    margin-top: 39px;
+    padding: 0 10px 0 30px;
+    text-align: center;
+    width: 148px;
+}
+#header .phone .phone1 {
+    background: transparent url("../img/phone.png") no-repeat scroll 0 0;
+    height: 40px;
+    padding-left: 50px;
+}
+#header .account {
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 39px;
+    position: relative;
+    width: 295px;
+    z-index: 1000;
+}
+.account .accountInner a {
+    color: #333;
+    text-decoration: none;
+}
+.account .accountInner .shoppingCart {
+    float: left;
+    padding-top: 9px;
+}
+.account .accountInner {
+    border: 1px solid #e6eae6;
+    border-radius: 4px;
+    height: 35px;
+    position: relative;
+}
+.account .accountInner .dropdown {
+    border-right: 1px solid #e6eae6;
+    float: left;
+    padding: 9px 5px;
+    position: relative;
+    width: 145px;
+}
+.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    height: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 0;
+}
+.account .accountInner .dropdown .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+    display: none;
+    float: left;
+    font-size: 14px;
+    left: 0;
+    list-style: outside none none;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+.account .accountInner .dropdown .dropdown-menu li {
+}
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+.dropdown .dropdown-menu li a:hover {
+    background-color: #f5f5f5;
+    color: #262626;
+    text-decoration: none;
+}
+.dropdown .dropdown-menu li a {
+    clear: both;
+    color: #333;
+    display: block;
+    font-weight: normal;
+    padding: 3px 20px;
+    text-align: left;
+    white-space: nowrap;
+}
+.account .accountInner .dropdown .icon-user {
+    background: rgba(0, 0, 0, 0) url("../img/icon_user.png") no-repeat scroll right center;
+    float: left;
+    height: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 17px;
+}
+.account .accountInner .shoppingCart .icon-shopping {
+    background: rgba(0, 0, 0, 0) url("../img/icon_shopping.png") no-repeat scroll right center;
+    float: left;
+    height: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 19px;
+}
+.account .accountInner .shoppingCart strong {
+    margin-left: 6px;
+}
+.wraper {
+    background: #CCFFCC none repeat scroll 0 0;
+    height: 100%;
+    margin: auto;
+    width: 960px;
+    
+}
+li {
+    list-style: outside none none;
+}
+#header {
+    height: 200px;
+    width: 960px;
+}
+#top-banner {
+    background: #fff none repeat scroll 0 0;
+    height: 140px;
+    width: 960px;
+}
+.banner {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#top-banner .logo {
+    float: left;
+}
+#main-menu {
+    background: #33cc33 none repeat scroll 0 0;
+    height: 40px;
+    margin-top: 1px;
+    width: 960px;
+}
+#main-menu ul li {
+    float: left;
+    list-style: outside none none;
+    padding: 11px 35px;
+    position: relative;
+}
+#main-menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+#content {
+    background: #fff none repeat scroll 0 0;
+    height: auto;
+    width: 100%;
+}
+#footer {
+    background: #33cc33 none repeat scroll 0 0;
+    clear: both;
+    height: 100px;
+    width: 960px;
+    margin-bottom: 10px;
+}
+#main-menu ul li:hover {
+    background-color: #ff99ff;
+    cursor: pointer;
+}
+#main-menu ul li:hover ul {
+    display: block;
+}
+#main-menu ul li ul {
+    background: #33cc33 none repeat scroll 0 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 41px;
+    z-index: 90;
+}
+#main-menu ul li ul li {
+    border-bottom: 1px solid #fff;
+    float: left;
+    list-style: outside none none;
+    padding: 11px 35px;
+    width: 120px;
+}
+#main-menu ul {
+    float: left;
+}
+#content #list-news .listdeal_four2 {
+    padding: 5px 15px 30px 5px;
+}
+#content #list-news .listdeal_four {
+    float: left;
+    margin-left: 59px;
+}
+#content #list-news {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: -23px;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+}

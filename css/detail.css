@@ -1,0 +1,144 @@
+
+
+#content .FixedMe .MiniFixed .box-x-order .box-btn-order .register_btn{
+    background: #00a200 none repeat scroll 0 0;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 168px;
+    margin-left:4px;
+     margin-top:4px;
+}
+#content .FixedMe .MiniFixed .box-x-order .box-btn-order .register_btn a{
+   color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+   
+deal-detail .ScrollBox .box-tit-head {
+    width: 418px;
+}
+
+.wraper #content .FixedMe{
+   background: #fff none repeat scroll 0 0;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    padding: 0 10px 1px;
+    position: relative;
+    width: 410px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix{
+    display: block;
+    margin-bottom: 2px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .img-name-price{
+    display: block;
+    min-height: 160px;
+    position: relative;
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix div.wap div.img-name-price div.name-price span.name{
+    color: #222;
+    display: block;
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .img-name-price .name-price span.xprice{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .img-name-price .name-price .xprice .price{
+    color: #00a200;
+    display: inline-block;
+    font-size: 23px;
+    font-weight: bold;
+}
+ .wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .img-name-price .name-price .xprice .oldprice{
+    color: #909090;
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 15px;
+    text-decoration: line-through;
+}
+.wraper div#content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .img-name-price .choose-option{
+    bottom: 0;
+    display: block;
+    right: 89px;
+    vertical-align: middle;
+    position: absolute
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .img-name-price .choose-option .opt{
+    display: block;
+    margin-top: 5px;
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .img-name-price img{
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    width: 130px;
+}
+.wraper #content .FixedMe #deal_support_me .deal-top-info.clearfix .wap .on-off{
+    font-weight: normal;
+    padding: 10px 0 3px;
+}
+.wraper #content .FixedMe #deal_support_me .MiniFixed{
+    width: 398px
+}
+.wraper #content .FixedMe #deal_support_me .MiniFixed .box-x-order{
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    position: relative;
+}
+.wraper #content .FixedMe #deal_support_me .MiniFixed .box-x-order .box-btn-order{
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: center;
+}
+.wraper #content .FixedMe form#deal_support_me .MiniFixed .box-x-order .box-btn-order .order-note{
+    display: block;
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+html body div.wraper div#content div.FixedMe form#deal_support_me div.MiniFixed div.box-x-order div.box-btn-order ul.order-note li.note{
+    display: list-item;
+    font-weight: normal;
+    line-height: 25px;
+    text-align: left;
+}
+html body div.wraper div#content div.FixedMe form#deal_support_me div.MiniFixed div.box-x-order div.box-btn-order ul.order-note li.note a.get_content{
+    color: #00a200;
+}
+html body div.wraper div#content div.FixedMe form#deal_support_me div.MiniFixed div.box-x-order div.box-btn-order ul.order-note li.note a.lightbox{
+    color: #00a200;
+}
+html body div.wraper div#content div.FixedMe form#deal_support_me div.box-tit-head{
+    width: 418px;
+    border-bottom: 1px solid #ececec;
+    color: #707070;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 5px;
+    margin-left: -10px;
+    position: relative;
+    text-align: center;
+    text-indent: 10px;
+    text-transform: uppercase;
+}

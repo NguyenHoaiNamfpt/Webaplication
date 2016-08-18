@@ -1,0 +1,512 @@
+ul.listdeal_four {
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+    margin-top: 10px
+}
+ul.listdeal_four li {
+    float: left;
+    width: 235px;
+    margin: 10px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6,Direction=135,Color='#cccccc',offX=0, offY=0)";
+    background: #fff
+}
+ul.listdeal_four li:hover {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6,Direction=135,Color='#cccccc',offX=0, offY=0)"
+}
+ul.listdeal_four li:hover div.listdeal_hover_T {
+    display: block
+}
+ul.listdeal_four li:hover div.listdeal_evoucher {
+    display: none
+}
+ul.listdeal_four li:hover div.listdeal_hover_B {
+    display: block
+}
+ul.listdeal_four li:hover p.icon_new {
+    display: none
+}
+ul.listdeal_four li:hover p.clock {
+    display: none
+}
+ul.listdeal_four li:hover p.num_product_hover_T {
+    display: block
+}
+ul.listdeal_four div.img {
+    position: relative;
+    height: 235px;
+    min-height: 200px
+}
+ul.listdeal_four div.img a {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+ul.listdeal_four div.img a img {
+    color: #ccc;
+    width: 235px;
+    height: auto
+}
+ul.listdeal_four p.clock {
+    position: absolute;
+    background: url(../images/bg_deal.png) repeat;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    font-size: 17px;
+    height: 32px;
+    right: 20px;
+    bottom: 10px;
+    text-align: left;
+    line-height: 30px;
+    padding: 0 5px
+}
+ul.listdeal_four p.clock span.icon-clock {
+    color: #ff7a00;
+    margin-right: 2px;
+    font-size: 17px;
+    vertical-align: -1px
+}
+ul.listdeal_four p.icon_new {
+    background: red;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 0;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    line-height: 24px;
+    font-size: 15px;
+    height: 25px;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    right: 10px
+}
+ul.listdeal_four p.flash_hover_T {
+    font-size: 18px;
+    background: url(../images/icon.png) no-repeat -28px -295px;
+    width: 49px;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    left: 10px
+}
+ul.listdeal_four span.lbl_place {
+    position: absolute;
+    background: url(../images/bg_deal.png) repeat;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    font-size: 13px;
+    height: 32px;
+    left: 20px;
+    top: 10px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 30px;
+    display: none
+}
+ul.listdeal_four p.num_people_hover_T {
+    background: url(../images/bg_deal.png) repeat;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 32px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 7px 10px 0;
+    display: none
+}
+ul.listdeal_four p.num_people_hover_T span.icon-num-people {
+    display: inline-block;
+    margin-right: 2px;
+    font-size: 19px;
+    color: #a9a9aa;
+    float: left
+}
+ul.listdeal_four p.num_people_hover_T span.text_num_people {
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: 4px;
+    color: #fff
+}
+ul.listdeal_four p.num_product_hover_T {
+    background: url(../images/bg_deal.png) repeat;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 32px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 7px 10px 0;
+    color: #fff;
+    display: none
+}
+ul.listdeal_four div.listdeal_hover_T {
+    background: url(../images/bg_deal.png) repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 32px;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    display: none;
+    padding: 7px 10px 0
+}
+ul.listdeal_four p.dist_cty {
+    color: #fff;
+    font-size: 13px;
+    float: left
+}
+ul.listdeal_four span.icon-position {
+    display: inline-block;
+    font-size: 13px;
+    color: #ababab;
+    padding: 0 4px 0 0
+}
+ul.listdeal_four p.num_choose {
+    color: black;
+    font-size: 13px;
+    float: right
+}
+ul.listdeal_four span.icon-check {
+    display: inline-block;
+    font-size: 13px;
+    color: #ababab;
+    padding: 0 4px 0 0
+}
+ul.listdeal_four div.listdeal_evoucher {
+    background: url(../images/bg_deal.png) repeat;
+    position: absolute;
+    line-height: 16px;
+    padding: 3px 7px;
+    color: black;
+    font-size: 12px;
+    bottom: 10px;
+    right: 10px;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-topleft: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    text-align: left
+}
+ul.listdeal_four div.listdeal_evoucher span.icon-voucher {
+    display: inline-block;
+    float: left;
+    margin-right: 4px;
+    margin-top: 2px;
+    font-size: 26px
+}
+ul.listdeal_four div.listdeal_hover_B {
+    background: url(../images/bg_deal.png) repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 48px;
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    display: none;
+    padding: 5px 110px 0 10px
+}
+ul.listdeal_four span.text_alert {
+    display: table-cell;
+    vertical-align: middle;
+    height: 35px
+}
+ul.listdeal_four span.num_product {
+    margin-top: 10px;
+    display: block
+}
+ul.listdeal_four p.voucher_e {
+    float: left;
+    width: 100%;
+    padding-right: 105px;
+    padding-top: 10PX
+}
+ul.listdeal_four a.btn_view {
+    background: #38b04a;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-topleft: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 12px;
+    text-align: center;
+    width: 95px;
+    position: absolute;
+    top: 8px;
+    right: 10px
+}
+ul.listdeal_four a.btn_view:hover {
+    background: #298238;
+}
+ul.listdeal_four div.listdeal_info {
+    clear: both;
+    overflow: hidden;
+    padding: 8px 10px 5px
+}
+ul.listdeal_four a.list_name {
+    color: #414141;
+    font-size: 15px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 21px;
+    overflow: hidden;
+    display: block;
+	    text-align: center;
+}
+ul.listdeal_four a.list_name:hover {
+    color: #414141
+}
+ul.listdeal_four a.list_name:focus {
+    color: #414141
+}
+ul.listdeal_four div.listdeal_group {
+    overflow: hidden;
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 0 5px;
+    /*height: 55px*/
+}
+ul.listdeal_four p.listdeal_info_L {
+    width: 28.6%;
+    margin-right: 2%;
+    float: left;
+    line-height: 37px
+}
+ul.listdeal_four p.num_down {
+    color: #ff7a00;
+    font-size: 38px;
+	    margin-top: 17px;
+}
+ul.listdeal_four p.num_down span.percent {
+    font-size: 22px
+}
+ul.listdeal_four p.listdeal_info_Ce {
+    float: left;
+    width: 37.525000000000006%;
+    margin-right: 2%
+}
+ul.listdeal_four p.listdeal_info_Ce span.trueprice {
+    color: #3a3a3a;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 0;
+    text-decoration: line-through
+}
+ul.listdeal_four p.listdeal_info_Ce span.trueprice1 {
+    color: #858585;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 0
+}
+ul.listdeal_four p.listdeal_info_Ce span.price {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 13px;
+    color: #3a3a3a
+}
+ul.listdeal_four p.listdeal_info_Ce1 {
+    color: #3a3a3a;
+    font-size: 15px;
+    font-weight: 700;
+    float: right;
+    padding-top: 14px;
+    display: none
+}
+ul.listdeal_four p.listdeal_info_Ce1 span.icon-clock {
+    display: inline-block;
+    color: #858585;
+    font-size: 16px;
+    font-weight: 300;
+    vertical-align: -1px;
+    margin-right: 4px
+}
+ul.listdeal_four div.listdeal_info_R {
+    width: 28.6%;
+    margin-right: 2%;
+    float: Right;
+    margin-right: 0;
+    text-align: right
+}
+ul.listdeal_four p.chayhang {
+    background: red;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: black;
+    font-size: 13px;
+    height: 37px;
+    padding: 10px 0 0 3px;
+    text-align: center;
+    line-height: 15px;
+    width: 80px;
+    display: block;
+    float: right
+}
+ul.listdeal_four p.num_people {
+    text-align: right;
+    padding-top: 17px
+}
+ul.listdeal_four p.num_people span.icon-num-people {
+    display: inline-block;
+    margin-right: 2px;
+    font-size: 19px;
+    color: #858585;
+}
+ul.listdeal_four p.num_people span.text_num_people {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: 4px
+}
+ul.listdeal_four span.btn_flash_group {
+    background: #fd8c25;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #fff;
+    font-size: 13px;
+    height: 37px;
+    padding: 3px 10px;
+    text-align: center;
+    line-height: 15px;
+    width: 80px;
+    display: block;
+    float: right
+}
+ul.listdeal_four div.listdeal_group1 {
+    overflow: hidden;
+    border-top: 1px solid #e3e3e3;
+    padding: 5px 0;
+    height: 55px
+}
+ul.listdeal_four div.listdeal_group1 p.listdeal_info_L {
+    width: 22.479999999999997%;
+    margin-right: 2%;
+    float: left;
+    line-height: 35px;
+    color: #ff7a00;
+    font-size: 15px;
+    padding-top: 9px
+}
+ul.listdeal_four div.listdeal_group1 p.listdeal_info_Ce {
+    padding-top: 2px
+}

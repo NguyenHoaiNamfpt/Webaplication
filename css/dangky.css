@@ -1,0 +1,104 @@
+iframe {
+    border: 2px inset;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+#groupRegister{
+    background: #f6f6f6;
+    border: 1px solid #fafafa;
+    float: left;
+    width: 50%;
+    border-radius: 2px;
+    text-align: center;
+    padding: 21px 21px 41px;
+}
+#content .pfull {
+    width: 100%;
+    display: block;}
+
+#groupRegister h4{
+    color: #545d54;
+    text-transform: uppercase;
+    line-height: 64px;
+    margin: 0;
+}
+#groupRegister .register_btn{
+    background: #00a200 ;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 2px;
+}
+ #content .pfull .loginForm {
+    border: 1px solid #e6eae6;
+    margin-bottom: 45px;
+    padding: 0 20px 20px;
+    position: relative;
+    display: block;}
+.loginForm h3{
+    color: #1f261f;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#content .pfull .loginForm .mesages{
+    display: none;
+    margin: 10px 0;
+}
+#groupRegister .note1 {
+    color: #b20000;
+    font-size: 12px;
+}
+.loginForm #formLogin {
+    float: right;
+    width: 42%;
+    color: #1f261f;
+    font-size: 13px;}
+.loginForm #formLogin form {
+    margin-top: 15px;
+}
+.relative {
+    position: relative;
+}
+.form-group1 .icon_name {
+    height: 16px;
+    top: 9px;
+}
+.loginForm #formLogin input, .loginForm #formLogin select  {
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    display: block;
+    line-height: 34px;
+    height: 34px;
+    width: 98%;
+    text-indent: 40px;
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.loginForm #formLogin input.submit_btn{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #b20000;
+    border: none;
+    text-transform: uppercase;
+    width: 200px;
+    text-indent: 0;
+    cursor: pointer;
+}
+#groupRegister .register_btn a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
